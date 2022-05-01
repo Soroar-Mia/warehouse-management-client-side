@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "name": "Strawberry ",
+        "price": " 500",
+        "description": "The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated..... ",
+        "img": "https://i.ibb.co/8rrb35k/strawberry.jpg ",
+        "quantity": "40 ",
+        "supplier": "Redoy Rahaman",
+        "sold": "30 "
+    },
+    {
+        "id": 2,
+        "name": "Cheri",
+        "price": "450 ",
+        "description": "Find Fruit cheri stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection. ",
+        "img": "https://i.ibb.co/BGBTyYq/cheree.jpg ",
+        "quantity": "50 ",
+        "supplier": "Roni Gopal ",
+        "sold": "20 "
+    },
+    {
+        "id": 3,
+        "name": "Orange ",
+        "price": " 200",
+        "description": "An orange is a fruit of various citrus species in the family Rutaceae ); it primarily refers to Citrus  sinensis, which is also called sweet orange, ... ",
+        "img": "https://i.ibb.co/rfX3n1L/orange.jpg ",
+        "quantity": " 100",
+        "supplier": "Mezannur Rahaman ",
+        "sold": "40 "
+    },
+    {
+        "id": 4,
+        "name": "Apple ",
+        "price": " 250",
+        "description": "An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the  ",
+        "img": "https://i.ibb.co/WybK3TV/apple.jpg",
+        "quantity": "150 ",
+        "supplier": "Prosenjit Pall ",
+        "sold": " 100"
+    },
+    {
+        "id": 5,
+        "name": "Pineapple ",
+        "price": "100 ",
+        "description": "The pineapple (Ananas comosus) is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae ",
+        "img": "https://i.ibb.co/SNW9y7w/pineapple.jpg",
+        "quantity": "80",
+        "supplier": "Daloar Mia ",
+        "sold": "46 "
+    },
+    {
+        "id": 6,
+        "name": "Blubeberry ",
+        "price": " 90",
+        "description": "Search from 418006 Blueberry Fruit stock photos, pictures and royalty-free images from iStock. Find high-quality stock photos that you won't find anywhere  ",
+        "img": "https://i.ibb.co/qBk72Qc/Blubeberry.jpg ",
+        "quantity": " 70",
+        "supplier": "Jahangir ",
+        "sold": "60 "
+    },
+   {
+        "id": 7,
+        "name": "Banana ",
+        "price": " 300",
+        "description": " ",
+        "img": "https://i.ibb.co/RjQPwWh/banana.jpg ",
+        "quantity": "66 ",
+        "supplier": "alamin boss",
+        "sold": " "
+    },
+    {
+        "id": 8,
+        "name": "Watermelon",
+        "price": "450",
+        "description": "A banana is an elongated, edible fruit botanically a berry  produced by several kinds of large herbaceous flowering plants in the genus Musa.",
+        "img": "https://i.ibb.co/tK5xqdD/watermelon.jpg",
+        "quantity": "55",
+        "supplier": "Anower MIa ",
+        "sold": " 80"
+    },
+    {
+        "id": 9,
+        "name": "Fig ",
+        "price": "140",
+        "description":"The fig is the edible fruit of Ficus carica, a species of small tree in the flowering plant family Moraceae. Native to the Mediterranean and western Asia, ",
+        "img": "https://i.ibb.co/FmjsY67/fig.jpg ",
+        "quantity": " 142",
+        "supplier": "Ruhul Amin ",
+        "sold": "12 "
+    },
+    {
+        "id": 10,
+        "name": "Red-apple",
+        "price": "451 ",
+        "description": "An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the   ",
+        "img": "https://i.ibb.co/1q6NfQD/red-apple.jpg",
+        "quantity": "95 ",
+        "supplier": "Soroar Mia",
+        "sold": "58"
+    },
+    {
+        "id": 11,
+        "name": "Strawberry ",
+        "price": " 500",
+        "description": "The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated..... ",
+        "img": "https://i.ibb.co/8rrb35k/strawberry.jpg ",
+        "quantity": "40 ",
+        "supplier": "Redoy Rahaman",
+        "sold": "30 "
+    },
+    {
+        "id": 12,
+        "name": "Cheri",
+        "price": "450 ",
+        "description": "Find Fruit cheri stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection. ",
+        "img": "https://i.ibb.co/BGBTyYq/cheree.jpg ",
+        "quantity": "50 ",
+        "supplier": "Roni Gopal ",
+        "sold": "20 "
+    }
+
+]
