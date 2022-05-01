@@ -11,7 +11,7 @@ const Item = ({item}) => {
     }
 
     return (
-        <div className='item'>
+        <div className='item '>
             <img className='w-100' src={img} alt="" />
             <h3>Name :{name}</h3>
             <h3>Supplier Name :{supplier}</h3>

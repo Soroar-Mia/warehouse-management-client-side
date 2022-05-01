@@ -12,6 +12,7 @@ const Login = () => {
     let location = useLocation();
 
     let from = location.state?.from?.pathname || "/";
+    let errorElement;
 
     const [
         signInWithEmailAndPassword,
@@ -22,6 +23,9 @@ const Login = () => {
 
     if (user) {
         navigate(from, { replace: true });
+    }
+    if (error) {
+        errorElement = <p className='text-danger'>Error: {error.message}</p>
     }
 
     const handleSubmit = event => {
@@ -51,13 +55,11 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
                 <Button variant="info" type="submit">
-                    Submit
+                    Login
                 </Button>
             </Form>
+            {errorElement}
             <p>New to fresh fruits  <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
             <SocialLogin></SocialLogin>
         </div>

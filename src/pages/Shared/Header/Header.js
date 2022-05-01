@@ -21,25 +21,20 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="home#items">items</Nav.Link>
-                        <Nav.Link href="home#pricing">Pricing</Nav.Link>
-                        <Nav.Link as={Link} to="about">About</Nav.Link>
-                        <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link className='hober'  as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link className='hober' href="home#items">items</Nav.Link>
+                        <Nav.Link className='hober' as={Link} to="about">Manage Inventories</Nav.Link>
+                        <Nav.Link className='hober' as={Link} to="about">Add Item</Nav.Link>
+                        <Nav.Link className='hober' as={Link} to="about">My Items</Nav.Link>
                     </Nav>
-                    <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
+                    <Nav >
+                        <Nav.Link className='hober' as={Link} to="about">About</Nav.Link>
+                        <Nav.Link className='hober' as={Link} to="blogs">Blogs</Nav.Link>
                         {
                             user ?
-                                <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
+                                <button className='btn btn-link text-white text-decoration-none ' onClick={handleSignOut}>sign out</button>
                                 :
-                                <Nav.Link as={Link} to="login">
+                                <Nav.Link className='hober' as={Link} to="login">
                                     Login
                                 </Nav.Link>}
                     </Nav>
