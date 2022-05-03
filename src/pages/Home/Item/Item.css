@@ -1,13 +1,13 @@
 .item{
     border: 1px solid rgb(197, 169, 169);
-    border-radius: 10px;
+    border-radius: 15px;
     padding-bottom: 10px;
     text-align: center;
-    background-color: rgb(69, 45, 116);
+    background-color: rgb(202, 144, 236);
 }
 .hei{
     height: 300px;
 }
 .qqq{
-    background-color: rgb(57, 17, 151);
+    background-color: rgba(253, 255, 255, 0.836);
 }

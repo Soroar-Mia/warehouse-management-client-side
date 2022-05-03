@@ -8,6 +8,7 @@ import ItemDetail from './pages/ItemDetail/ItemDetail';
 import Login from './pages/Login/Login/Login';
 import Register from './pages/Login/Register/Register';
 import RequireAuth from './pages/Login/RequireAuth/RequireAuth';
+import ManageServices from './pages/ManageServices/ManageServices';
 import MyItems from './pages/MyItems/MyItems';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header';
@@ -31,6 +32,11 @@ function App() {
         <Route path="/myItems" element={
           <RequireAuth>
             <MyItems></MyItems>
+          </RequireAuth>
+        }></Route>
+        <Route path="/manageServices" element={
+          <RequireAuth>
+            <ManageServices></ManageServices>
           </RequireAuth>
         }></Route>
         <Route path="/login" element={<Login></Login>}></Route>
