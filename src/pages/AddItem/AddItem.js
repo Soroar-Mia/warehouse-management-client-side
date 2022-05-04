@@ -22,7 +22,7 @@ const AddItem = () => {
     return (
         <div className='w-100 bac  mx-auto'>
             <h2 className='text-info text-center p-2'>ADD INVENTORY</h2>
-            <form className='d-flex flex-column addf p-5' onSubmit={handleSubmit(onSubmit)}>
+            <form className='d-flex flex-column addItem p-5' onSubmit={handleSubmit(onSubmit)}>
                 <input className='mb-2 addI' placeholder='Name' {...register("name", { required: true, maxLength: 20 })} />
                 <input className='mb-2 addI' placeholder='Supplier Name' {...register("supplier")} />
                 <input className='mb-2 addI' placeholder='Image URL' {...register("img")} />

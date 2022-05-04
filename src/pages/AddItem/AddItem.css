@@ -11,7 +11,16 @@
     margin-bottom: 15px;
     border-radius: 5px;
 }
-.addf{
+.addItem{
     margin: 0 auto;
     width: 40%;
 }
+
+
+/* make items responsive */
+@media only screen and (max-width: 992px) {
+    .addItem{
+        width: 80%;
+    }
+}
+

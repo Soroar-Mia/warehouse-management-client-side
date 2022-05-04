@@ -1,0 +1,10 @@
+.login{
+    width: 50%;
+}
+
+/* make items responsive */
+@media only screen and (max-width: 992px) {
+    .login{
+        width: 100%;
+    }
+}

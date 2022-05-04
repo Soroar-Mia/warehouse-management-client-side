@@ -25,7 +25,9 @@ const Items = () => {
                             item={item}
                         ></Item>)
                     }
+                    
                 </div>
+                <button type="button" class="btn btn-info w-50 mx-auto"><b>MANAGE  INVENTORY</b></button>
             </div>
         </div>
     );
