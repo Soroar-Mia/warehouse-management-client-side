@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Item from '../Item/Item';
 import './Items.css';
 
 const Items = () => {
 
     const [items, setItems] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch('http://localhost:5000/item')
             .then(res => res.json())
-            .then(data => setItems(data));
+            .then(data => setItems(data.slice(0, 6)));
     }, [])
 
 
@@ -27,7 +29,7 @@ const Items = () => {
                     }
                     
                 </div>
-                <button type="button" class="btn btn-info w-50 mx-auto"><b>MANAGE  INVENTORY</b></button>
+                <button onClick={() => navigate('/manageservices')} type="button" class="btn btn-info w-50 mx-auto mt-3 mb-3"><b>MANAGE  INVENTORY</b></button>
             </div>
         </div>
     );
