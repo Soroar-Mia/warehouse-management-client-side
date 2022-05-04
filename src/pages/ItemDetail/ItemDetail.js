@@ -8,7 +8,7 @@ const ItemDetail = () => {
     const [update, setUpdate] = useState({});
 
     useEffect(() => {
-        const url = `http://localhost:5000/item/${itemId}`;
+        const url = `https://sleepy-mountain-44464.herokuapp.com/item/${itemId}`;
 
         fetch(url)
             .then(res => res.json())
@@ -18,7 +18,7 @@ const ItemDetail = () => {
 
     const handleDelivered = () => {
         const newQuantity = parseInt(item.quantity) - 1;
-        fetch(`http://localhost:5000/item?itemId=${itemId}`, {
+        fetch(`https://sleepy-mountain-44464.herokuapp.com/item?itemId=${itemId}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -33,7 +33,7 @@ const ItemDetail = () => {
         event.preventDefault();
         const userQuantity = event.target.number.value;
         const newQuantity = parseInt(item.quantity) + parseInt(userQuantity);
-        fetch(`http://localhost:5000/item?itemId=${itemId}`, {
+        fetch(`https://sleepy-mountain-44464.herokuapp.com/item?itemId=${itemId}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
